@@ -137,7 +137,7 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 						</div>
 					)}
 
-					<div className="grid items-start gap-6 xl:grid-cols-3">
+					<div className="grid items-start gap-6 xl:grid-cols-2">
 						<div className="col-span-1">
 							{firstPost && (
 								<HeroPost
@@ -153,7 +153,7 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 					</div>
 
 					{allPosts.length > 0 && (
-						<div className="bg-primary-50 grid grid-cols-2 grid-rows-2 rounded-lg px-5 py-5 dark:bg-neutral-900 md:py-10">
+						<div className="bg-primary-50 grid grid-cols-4 rounded-lg px-5 py-5 dark:bg-neutral-900 md:py-10">
 							<div className="col-span-full md:col-span-2 md:col-start-2">
 								<h2 className="text-primary-600 dark:text-primary-500 mb-5 text-center text-lg font-semibold">
 									Subscribe to our newsletter for updates and changelog.
