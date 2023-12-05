@@ -137,7 +137,7 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 						</div>
 					)}
 
-					<div className="grid items-start gap-6 xl:grid-cols-3">
+					<div className="grid items-start gap-6 xl:grid-cols-2">
 						<div className="col-span-1">
 							{firstPost && (
 								<HeroPost
@@ -149,7 +149,7 @@ export default function Index({ publication, initialAllPosts, initialPageInfo }:
 								/>
 							)}
 						</div>
-						<div className="col-span-2 flex flex-col gap-6">{secondaryPosts}</div>
+						<div className="col-span-1 flex flex-col gap-6">{secondaryPosts}</div>
 					</div>
 
 					{allPosts.length > 0 && (
